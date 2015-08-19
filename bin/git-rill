@@ -1,13 +1,2 @@
 #!/usr/bin/env node
-var argv = require('optimist')
-    .usage('创建一个随机命名的分支\nUsage: $0')
-    .wrap(90)
-    .argv
-;
-
-
-var gitRill = require('../lib/baya.js')
-;
-
-gitRill.generate( argv.i, argv.o, argv.t );
-
+require('../lib/git-rill');
