@@ -1,0 +1,23 @@
+{
+  "name": "git-rill",
+  "version": "0.0.1",
+  "description": "创建一个随机命名（ heroku-like）的分支，不用每次想名字都想的头大了",
+  "keywords": [
+    "git",
+    "branch",
+    "random",
+    "heroku-like"
+  ],
+  "author": "ianva <ianva7@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianva/git-rill"
+  },
+  "dependencies": {
+    "optimist": "~0.6.1",
+    "project-name-generator": "^2.1.1",
+    "shelljs": "~0.5.3"
+  },
+  "main": "lib/git-rill.js",
+  "bin": "bin/git-rill"
+}
