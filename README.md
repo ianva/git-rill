@@ -8,4 +8,4 @@
 
 ## Commands
 
-git-rill 
+git rill 
